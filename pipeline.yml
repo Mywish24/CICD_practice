@@ -10,7 +10,7 @@ variables:
   - name: AgentPool
     value: MyAgentPool
   - name: DeployEnvironment
-    value: kops-dev-web  
+    value: Devops-dev-web  
 stages:
   - stage: BuildApp 
     condition: always()
