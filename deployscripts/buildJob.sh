@@ -4,7 +4,7 @@
 
 echo $buildNumber
 echo $buildDir
-artifactsPath="/home/azadmin/agent/artifacts"
+artifactsPath="/home/azuser/agent/artifacts"
 
 mkdir -p $artifactsPath
 # Compiling the Appliction with Maven.
